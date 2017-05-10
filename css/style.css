@@ -17,7 +17,7 @@ body a{
 	-ms-transition:0.5s all;
 }
 h1,h2,h3,h4,h5,h6{
-	margin:0;			   
+	margin:0;
 }
 p{
 	margin:0;
@@ -26,6 +26,13 @@ ul{
 margin:0;
 padding:0;
 }
+.backofpage {
+	z-index: 999
+}
+.stick-to-right {
+        width: 250px;
+        float: right;
+    }
 /*-- banner --*/
 .banner{
 background:#ced7df;
@@ -215,7 +222,7 @@ width:57%;
 	font-size: 6.5em;
 	overflow: hidden;
 	line-height: 1;
-	
+
 	color:#4eacff;
 }
 
@@ -335,7 +342,7 @@ margin-top:50px;
   background:#76b852;
   margin: 0 auto;
   text-align: center;
-  position: relative;	
+  position: relative;
 }
 .btm-clr .glyphicon-star,.btm-clr .glyphicon-cog,.btm-clr .glyphicon-map-marker,.btm-clr .glyphicon-thumbs-up,.btm-clr .glyphicon-globe {
   z-index: 9999;
@@ -349,7 +356,7 @@ margin-top:50px;
   top: 31px;
   left: 1px;
   font-size: 37px;
-  color: #fff; 
+  color: #fff;
  }
 .wel-grid .icon img {
   padding: 23px 0 0 0;
@@ -395,7 +402,7 @@ margin-top:50px;
   background: #323b43;
   margin: 0 auto;
   text-align: center;
-  position: relative;	
+  position: relative;
 }
 .wel-grid.btm-gre .icon:before {
   content: '';
@@ -480,7 +487,7 @@ padding:80px 0;
 	-ms-transition:0.5s all;
 }
 .news form input[type="submit"]:hover{
-color:#76b852;  
+color:#76b852;
 }
 .button {
   float: right;
@@ -597,14 +604,14 @@ color: #fff;
 	-webkit-transition: .5s all;
 	-o-transition: .5s all;
 	-ms-transition: .5s all;
-	-moz-transition: .5s all;	
+	-moz-transition: .5s all;
 	}
 .point-icon .glyphicon-map-marker,.point-icon .glyphicon-envelope,.point-icon .glyphicon-earphone{
    z-index: 9999;
   top: 0px;
   left: 1px;
   font-size: 37px;
-  color: #323b43; 
+  color: #323b43;
  }
 /*-- get-in --*/
 /*-- copy --*/
@@ -635,7 +642,7 @@ color:#76b852;
 	bottom: 52px;
 	right: 1%;
 	overflow: hidden;
-	z-index: 999; 
+	z-index: 999;
 	width: 32px;
 	height: 32px;
 	border: none;
@@ -1198,7 +1205,7 @@ color:#76b852;
 	.nav-right ul li:nth-child(1) a,.nav-right ul li:nth-child(5) a {
 	  padding: 8px 4px;
 	}
-	
+
 }
 @media (max-width: 320px){
 .navigation {
